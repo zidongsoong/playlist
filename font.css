@@ -1,0 +1,39 @@
+h1 a { 
+    color : wheat;
+    font-family: 'Times New Roman', serif;
+    text-align: right;
+    text-decoration: none;
+}
+
+h2.SKZ { 
+    font-style: oblique;
+    font-family: 'Times New Roman', serif;
+    
+}
+
+body {
+    background-color: darkslategray;
+}
+
+.SKZ a {
+    color:black;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2.skrr a {
+    text-align: center;
+    font-family:'Times New Roman', serif;
+    color:black;
+    text-decoration: none;
+
+}
+
+h2.skrr {
+    text-align: center;
+}
