@@ -37,3 +37,39 @@ h2.skrr a {
 h2.skrr {
     text-align: center;
 }
+
+.character {
+    position:fixed;
+    top :300px;
+    left:20px;
+    display: inline-block;
+}
+
+.charming {
+    width : 200px;
+    display:block;
+}
+.bubble {
+    display: inline-block;
+    background-color: white; /* 말풍선 색 */
+    color: black;
+    padding: 10px 15px;
+    border-radius: 30px;       /* 둥근 모서리 */
+    position: relative;
+    width: 228px;
+    top: -160px;
+    left: -200px;
+}
+
+/* bubble이 부모라 bubble 움직이면 ::after도 같이 움직임 */
+.bubble::after {
+    content: '';
+    position: absolute;
+    bottom: 0;                  /* 아래쪽 */
+    left: 30px;                 /* 꼬리 위치 */
+    width: 0;
+    border: 10px solid transparent;
+    border-top-color: white;  /* 말풍선 배경색과 같게 */
+    left: 100px;
+    bottom: -18px;
+}
