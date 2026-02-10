@@ -57,8 +57,8 @@ h2.skrr {
     border-radius: 30px;       /* 둥근 모서리 */
     position: relative;
     width: 228px;
-    top: -160px;
-    left: -200px;
+    top: -190px;
+    left: 13px;
 }
 
 /* bubble이 부모라 bubble 움직이면 ::after도 같이 움직임 */
